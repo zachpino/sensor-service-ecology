@@ -372,6 +372,12 @@ A query returns a single *parent* array (the top and bottom square brackets). Wi
 
 You can find more information and details at the many links above, and in [this guide](https://www.census.gov/content/dam/Census/data/developers/api-user-guide/api-guide.pdf) produced by the census development team — it's a highly recommended read.
 
+A base census api call for Chicago census tracts might look like this...
+
+```
+https://api.census.gov/data/2017/acs/acs5?get=NAME,B01001_001E&for=tract:*&in=county:031&in=state:17&key=...
+```
+
 Continue working on your CTA brief, and use census data as a potential shortcut to some demographic insights. Use [this tool](census_cta.zip) as explored in class to visualize Chicago census tracts.
 
 If that folder is **unzipped to your desktop**, use these commands in Terminal to launch the tool.
