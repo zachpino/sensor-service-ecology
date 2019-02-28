@@ -6,7 +6,7 @@ Download and install [Sublime](https://www.sublimetext.com/), and request a [Cen
 
 #### What is the Census?
 
-The [US Census](https://en.wikipedia.org/wiki/United_States_Census) — an extraordinary resource for data scientists, policymakers, and social science researchers — is an attempt to collect information on every single person living within the boundaries of sovereign United States territory every ten years. It is called for by the Constitution of the United States, and has never been missed (even taking place during the United States Civil War ). Not only is the census vital for a better understanding of the makeup and condition of the United States, but it also serves as the official mechanism for drawing congressional and state goverment district boundaries — rendering the census a vital component of the United States political mechanism. Thousands of taxpayer-supported census workers campus the country, knock on doors, collect data, and ensure as accurate a count as possible through some [functionally questionable instuments](https://www.census.gov/2010census/pdf/2010_Questionnaire_Info.pdf).
+The [US Census](https://en.wikipedia.org/wiki/United_States_Census) — an extraordinary resource for data scientists, policymakers, and social science researchers — is an attempt to collect information on every single person living within the boundaries of sovereign United States territory every ten years. It is called for by the Constitution of the United States, and has never been missed (even taking place during the United States Civil War ). Not only is the census vital for a better understanding of the makeup and condition of the United States, but it also serves as the official mechanism for drawing congressional and state goverment district boundaries — rendering the census a vital component of the United States political mechanism. Thousands of taxpayer-supported census workers campus the country, knock on doors, collect data, and ensure as accurate a count as possible through some [functionally questionable instruments](https://www.census.gov/2010census/pdf/2010_Questionnaire_Info.pdf).
 
 Though an effort is made to deliver a wholistic and objective count with financial punishment for those who do not complete the census form ($100/household in 2010) and a promise of total confidentiality and indemnity, participation in the census is estimated at 74%, with some populations statistically underreporting. For instance, undocumented immigrant families are less likely to participate for fear of governmental reprisal. This skew has been modeled, and serves as a statistical adjustment in some of the census datasets which do not report raw numbers. Most census datasets, however, report nothing more than pure integer counts, and contextual offsets are left up to the data modeler. 
 
@@ -311,13 +311,13 @@ This will return a subset of the result above.
 ["5778709","1015308","55"]]
 ```
 
-We also can use the `in` keyword to include smaller geographic entities constrained by larger ones. For example, perhaps we could ask the API for data for all of the school districts in Illinois. Note that `congressional district` has its space replaced by `%20`, which is the HTML encoding for a space. All spaces found in supported geographies will be similarly replaced.
+We also can use the `in` keyword to include smaller geographic entities constrained by larger ones. For example, perhaps we could ask the API for data for all of the congressional districts in Illinois. Note that `congressional district` has its space replaced by `%20`, which is the HTML encoding for a space. All spaces found in supported geographies will be similarly replaced.
 
 ```
 api.census.gov/data/2016/acs/acs1/subject?get=S0101_C01_001E,S1301_C01_027E&for=congressional%20district:*&in=state:17&key=a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0
 ```
 
-The results will include all 18 congressional districts that Illinois currently holds. Illinois will likely lose a congressional seat as a result of the 2020, so be careful when comparing this kind of flexible geographic determiner over time.
+The results will include all 18 congressional districts that Illinois currently holds. Illinois will likely lose a congressional seat as a result of the 2020 census, so be careful when comparing this kind of flexible geographic determiner over time.
 
 ```
 [["S0101_C01_001E","S1301_C01_027E","state","congressional district"],
