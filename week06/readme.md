@@ -300,6 +300,7 @@ The same logic applies to multiple geographic entitities. For instance, we can a
 
 ```
 https://api.census.gov/data/2017/acs/acs5?get=NAME,B01001_003E,B01001_027E&for=state:17,55,26&key=...```
+```
 
 This will return a subset of the result above.
 
