@@ -69,7 +69,7 @@ Keep this 40 character string to yourself, and never share it online. Doing so c
 
 #### Browsing the API Data
 
-The [yearly ACS API](https://census.gov/data/developers/data-sets/acs-5year.html) offers many different way of learning about the data available within. The page lays out four main, confusingly named presentations of the underlying data.
+The [5 year ACS API](https://census.gov/data/developers/data-sets/acs-5year.html) offers many different way of learning about the data available within. The page lays out four main, confusingly named presentations of the underlying data.
 
 	> Detail Tables : Actual raw datapoints, mostly pure counts, the most data at the highest specificity
 	> Subject Tables : The raw data points scaled up and converted into population percentages and averages
@@ -82,11 +82,11 @@ Underneath each presentation is an set of resources that looks something like th
 
 ##### Detail Tables
 - Example Call: api.census.gov/data/2017/acs/acs5?get=NAME,B01001_001E&for=state:*&key=...
-- 2016 ACS Detail Table Variables [ html | xml | json ]
+- 2017 ACS Detail Table Variables [ html | xml | json ]
 - ACS Technical Documentation
 - Examples and Supported Geography
 
-Selecting the [html](https://api.census.gov/data/2016/acs/acs1/variables.html) link will display a webpage listing all of the data dimensions available and is the best place to start browsing. On that linked page thousands of rows will display exactly what is avaiable in the ACS.
+Selecting the [html](https://api.census.gov/data/2017/acs/acs5/variables.html) link will display a webpage listing all of the data dimensions available and is the best place to start browsing. On that linked page thousands of rows will display exactly what is avaiable in the ACS.
 
 | Name        | Label           | Concept  | Required | Attributes | Limit | Predicate Type | Group | Valid Value |
 | :------     |:-------------   | :-----   | :------- |:---------  | :-----| :------------- |:------| :-----------|
