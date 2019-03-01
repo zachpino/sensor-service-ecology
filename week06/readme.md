@@ -391,4 +391,6 @@ python -m SimpleHTTPServer 8080
 
 ```
 
-Then, visit `http://localhost:8080` in your browser of choice.
+Then, visit `http://localhost:8080` in your browser of choice to see your data of choice mapped on to the city.
+
+![CTA map](map.png)
