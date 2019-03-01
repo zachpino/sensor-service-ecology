@@ -380,7 +380,7 @@ A base census api call for Chicago census tracts might look like this...
 https://api.census.gov/data/2017/acs/acs5?get=NAME,B01001_001E&for=tract:*&in=county:031&in=state:17&key=...
 ```
 
-Continue working on your CTA brief, and use census data as a potential shortcut to some demographic insights. Use [this tool](census_cta.zip) as explored in class to visualize Chicago census tracts.
+Continue working on your CTA brief, and use census data as a potential shortcut to some demographic insights. Use [this mapping tool](census_cta.zip) as explored in class to visualize Chicago census tracts.
 
 If that folder is **unzipped to your desktop**, use these commands in Terminal to launch the tool.
 
