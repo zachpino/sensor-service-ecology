@@ -6,7 +6,7 @@ Let's add some nuance to our visualization tool, and use a more powerful modelin
 
 #### Download the New Tool!
 
-Grab this [zip file](census_cta_v2.zip) for our new data exploration tool. Make sure you have [Sublime](https://www.sublimetext.com) installed.
+Grab this [zip file](census_cta_v3.zip) for our new data exploration tool. Make sure you have [Sublime](https://www.sublimetext.com) installed.
 
 -----
 
