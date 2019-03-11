@@ -47,6 +47,12 @@ Use the very useful [mapshaper](https://mapshaper.org) and [MyGeoData](https://m
 
 -----
 
+#### Forecasting in Excel/Numbers/Sheets
+
+Check out the [FORECAST and TREND](https://www.excel-easy.com/examples/forecast-trend.html) functions, which work similarly in various spreadsheet programs.
+
+-----
+
 #### Recoloring and Downloading Maps
 
 Visit the [D3 chromatic scale module page](https://github.com/d3/d3-scale-chromatic) to see possible color schemes for your maps. In particular, consider [diverging](https://github.com/d3/d3-scale-chromatic#diverging) and [sequential](https://github.com/d3/d3-scale-chromatic#sequential-multi-hue) color scales for better visibilty.
