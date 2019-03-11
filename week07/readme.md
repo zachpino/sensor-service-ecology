@@ -23,7 +23,7 @@ https://api.census.gov/data/2017/acs/acs5?get=NAME,B01001_001E&for=tract:*&in=co
 Loading the tool...
 
 ```
-cd ~/Desktop/census_cta_v2/
+cd ~/Desktop/census_cta_v3/
 python -m SimpleHTTPServer 8080 
 ```
 
