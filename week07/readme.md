@@ -23,7 +23,7 @@ https://api.census.gov/data/2017/acs/acs5?get=NAME,B01001_001E&for=tract:*&in=co
 Loading the tool...
 
 ```
-cd ~/Desktop/census_cta_v2/
+cd ~/Desktop/census_cta_v3/
 python -m SimpleHTTPServer 8080 
 ```
 
@@ -44,6 +44,12 @@ The city of Chicago publishes municipal datasets at the [Chicago Data Portal](ht
 #### Reprojecting and Converting Geographic Data
 
 Use the very useful [mapshaper](https://mapshaper.org) and [MyGeoData](https://mygeodata.cloud/converter/) to manipulate and convert shapefiles and geoJSON files.
+
+-----
+
+#### Forecasting in Excel/Numbers/Sheets
+
+Check out the [FORECAST and TREND](https://www.excel-easy.com/examples/forecast-trend.html) functions, which work similarly in various spreadsheet programs.
 
 -----
 
