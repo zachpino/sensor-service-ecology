@@ -74,9 +74,9 @@ We can see what is in the current working directory with `ls`.
 
 `ls`
 
-	```
-	Applications
-	Desktop
+
+> `Applications`
+> `Desktop`
 	Documents
 	Downloads
 	Library
