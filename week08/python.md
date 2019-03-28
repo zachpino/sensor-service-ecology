@@ -37,9 +37,9 @@ To run our Python code, we simply use the Terminal command `python`.
 python hello.py
 ```
 
-	```
-	Hello World
-	```
+```
+Hello World
+```
 
 We have officially written and executed Python code! :clap:
 
