@@ -135,7 +135,7 @@ Use the `>` character to redirect output.
 
 `echo 'hello zach' > greetings.txt`
 
-Unlike what you would expect, `echo` does not parrot back what you typed in this instance. Instead, the text is pushed into the newly created (if it didn't already exist) `greetings.txt` file. You can preview the new file with the `cat` command.
+Unlike what you would expect, `echo` does not parrot back what you typed in this instance. Instead, the text is pushed into the newly created (if it didn't already exist) `greetings.txt` file. You can preview the new file with the `cat` command, short for `concatenate` since the command is also used for gluing text together in addition to viewing text files.
 
 `cat greetings.txt`
 
