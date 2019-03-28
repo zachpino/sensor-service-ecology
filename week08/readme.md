@@ -28,7 +28,7 @@ Python is designed to be easy to learn and human-readable. Towards this end, whi
 
 ##### Python's Philosophy
 
-The [Zen of Python](https://en.wikipedia.org/wiki/Zen_of_Python), a note posted to the official Python message board in 1995 by developer [Tim Peters](https://en.wikipedia.org/wiki/Tim_Peters_(software_engineer\)), was adopted in 1995 as the official guiding logic of the Python project.
+The [Zen of Python](https://en.wikipedia.org/wiki/Zen_of_Python), a note posted to the official Python message board in 1995 by developer [Tim Peters](https://en.wikipedia.org/wiki/Tim_Peters_(software_engineer)), was adopted in 1995 as the official guiding logic of the Python project.
 
 - Beautiful is better than ugly.
 - Explicit is better than implicit.
