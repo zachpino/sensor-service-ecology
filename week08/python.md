@@ -208,8 +208,8 @@ If we want a random number with decimals (called a "floating point number" by de
 import random
 
 for i in range(10) :
-	#print a random number between 0 and 1, inclusive
-	print(random.uniform(0,5))
+	#print a random number, uniformly weighted, between 0 and 1, inclusive
+	print(random.uniform(0,1))
 ```
 	```
 	0.8481560825317095
