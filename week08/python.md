@@ -2,7 +2,6 @@
 - [Python History and Philosophy](readme.md)
 - [Terminal Basics](terminal.md)
 - [Intro to Python](python.md)
-- [Modeling a Bikeshare System](bikeshare.md)
 
 -----
 
