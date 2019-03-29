@@ -48,7 +48,7 @@ The data keys are:
 'capacity'  : The number of available bike docks
 ```
 
-Please write the Python code to evaluate this list of Python dictionaries, and try to answer the following questions through list and dictionary manipulation. Copy and past the code that you used to answer each question and keep it around for discussion next week.
+Please write the Python code to evaluate this list of Python dictionaries, and try to answer the following questions through list and dictionary manipulation. Copy and past the code that you used to answer each question and keep it around for discussion next week. This [section of the tutorial](https://github.com/zachpino/sensor-service-ecology/blob/master/week08/python.md#synthesizing-data-from-lists-iteration) for the week will be most helpful.
 
 1. What was the average count for arrivals to Divvy stations in 2018? What was the average count for departures?
 2. What stations had the highest, and lowest, departure counts? Where are they? Where are they, and why might they be the extremes?
