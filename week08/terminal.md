@@ -76,14 +76,21 @@ We can see what is in the current working directory with `ls`.
 
 
 > `Applications`
+
 > `Desktop`
+
 > `Documents`
+
 > `Downloads`
+
 > `Library`
+
 > `Movies`
+
 > `Music`
+
 > `Pictures`
-```
+
 
 -----
 
