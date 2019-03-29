@@ -22,20 +22,19 @@ Setting up your desktop with the following format as a starting point is advisab
 
 The standard [Hello world](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program) program, often used to demonstrate basic competency in a new programming language, is super easy in Python.
 
-```
+```python
 print("Hello world")
 ```
 
 We will need to type that bit of code into a new file in Sublime and save it as the file `hello.py`. To unify our processes, let's all make a new folder called `python_intro` on our Desktop. We can move into this new folder in our Terminal.
 
-```
-cd ~/Desktop/python_intro/
-```
+
+> `cd ~/Desktop/python_intro/`
+
 To run our Python code, we simply use the Terminal command `python`.
 
-```
-python hello.py
-```
+
+> `python hello.py`
 
 ```
 Hello World
@@ -260,9 +259,11 @@ myList = ["hello","greetings","good day","hey","allo","good morning"]
 print( len(myList) )
 ```
 
-	```
-	6	
-	```
+If we run this, the computer will calculate the number of items in the list.
+
+```
+6	
+```
 
 This is very useful for looping, and critical for any data manipulation! 
 
@@ -273,14 +274,14 @@ for i in range( len(myList) ) :
 	print( myList[i] )
 ```
 
-	```
-	hello
-	greetings
-	good day
-	hey
-	allo
-	good morning	
-	```
+```
+hello
+greetings
+good day
+hey
+allo
+good morning	
+```
 
 -----
 
@@ -316,11 +317,11 @@ for i in range( len(pets) ):
 	print( "My " + pets[i]["common name"] + " is part of the zoologic family " + pets[i]["family"] )
 ```
 
-	```
-	My doggy is part of the zoologic family canidae
-	My kitty is part of the zoologic family felidae
-	My piggy is part of the zoologic family suidae
-	My bunny is part of the zoologic family leporidae
-	```
+```
+My doggy is part of the zoologic family canidae
+My kitty is part of the zoologic family felidae
+My piggy is part of the zoologic family suidae
+My bunny is part of the zoologic family leporidae
+```
 
 Note the double bracketing `[i]["common name"]` which tells Python to access a specific entity in the list, and then retrieve a specific value by key name. 
