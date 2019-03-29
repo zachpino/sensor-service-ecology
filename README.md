@@ -14,4 +14,5 @@ Documentation and Resources for the Spring 2019 IIT Institute of Sensor Service 
 
 - [Week 08 · Intro to Python Modeling](week08/readme.md) 	
 	> Classtime: Python Basics
+	
 	> Homework:  Divvy Data Analysis
