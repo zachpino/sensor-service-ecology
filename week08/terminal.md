@@ -10,13 +10,13 @@
 
 Before we can get to Python, we need to learn how to use our computers in a slightly different way. Let's begin to interact with machines through programmatic text in a [command line interface (CLI)](https://en.wikipedia.org/wiki/Command-line_interface). 
 
-> On Macs or Linux machines, open `Terminal` from the `Applications/Utilities Folder`. 
+On Macs or Linux machines, open `Terminal` from the `Applications/Utilities Folder`. 
 
-> On Windows, install [Cygwin](https://www.cygwin.com)
+On Windows, install [Cygwin](https://www.cygwin.com)
 
 The Terminal is a way of controlling your computer without any graphical user elements. You type in commands, and the machine responds with text back to you.
 
-macOS uses a Terminal dialect called [Bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) which is derived from its Unix ancestry. The Bash language that we will be writing is [very concise](http://ss64.com/bash/).
+macOS and Cygwin use a Terminal dialect called [Bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) which is derived from a shared Unix ancestry. The Bash language that we will be writing is [very concise](http://ss64.com/bash/).
 
 ##### The Prompt
 
@@ -77,13 +77,13 @@ We can see what is in the current working directory with `ls`.
 
 > `Applications`
 > `Desktop`
-	Documents
-	Downloads
-	Library
-	Movies
-	Music
-	Pictures
-	```
+> `Documents`
+> `Downloads`
+> `Library`
+> `Movies`
+> `Music`
+> `Pictures`
+```
 
 -----
 
