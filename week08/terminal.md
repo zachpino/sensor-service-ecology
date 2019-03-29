@@ -72,25 +72,18 @@ but with your username instead of `zach`
 
 We can see what is in the current working directory with `ls`.
 
-`ls`
+> `ls`
 
-
-> `Applications`
-
-> `Desktop`
-
-> `Documents`
-
-> `Downloads`
-
-> `Library`
-
-> `Movies`
-
-> `Music`
-
-> `Pictures`
-
+```
+Applications
+Desktop
+Documents
+Downloads
+Library
+Movies
+Music
+Pictures
+```
 
 -----
 
