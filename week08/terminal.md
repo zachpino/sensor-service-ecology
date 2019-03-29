@@ -20,7 +20,7 @@ macOS and Cygwin use a Terminal dialect called [Bash](https://en.wikipedia.org/w
 
 #### Using SSE Tutorials
 
-A quick note: code that you are designed to type looks like this...
+A quick note: code that you are designed to type and execute on this page looks like this...
 
 > `cd ~/Desktop`
 
