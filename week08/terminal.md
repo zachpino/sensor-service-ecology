@@ -18,6 +18,21 @@ The Terminal is a way of controlling your computer without any graphical user el
 
 macOS and Cygwin use a Terminal dialect called [Bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) which is derived from a shared Unix ancestry. The Bash language that we will be writing is [very concise](http://ss64.com/bash/).
 
+#### Using SSE Tutorials
+
+A quick note: code that you are designed to type looks like this...
+
+> `cd ~/Desktop`
+
+The computer's response will always be formatted like this...
+
+```
+Desktop
+Documents
+```
+
+-----
+
 ##### The Prompt
 
 After Terminal launches, it will present you with a prompt in this format. 
