@@ -93,18 +93,18 @@ for i in range(10) :
     print("Hello " + str(i) + " times")
 ```
 
-	```
-	Hello 0 times
-	Hello 1 times
-	Hello 2 times
-	Hello 3 times
-	Hello 4 times
-	Hello 5 times
-	Hello 6 times
-	Hello 7 times
-	Hello 8 times
-	Hello 9 times
-	```
+```
+Hello 0 times
+Hello 1 times
+Hello 2 times
+Hello 3 times
+Hello 4 times
+Hello 5 times
+Hello 6 times
+Hello 7 times
+Hello 8 times
+Hello 9 times
+```
 
 Note the indentation of the print statement, which tells Python that the `print()` code should be included in the loop.
 
@@ -118,11 +118,11 @@ for i in range(5,12,3) :
     print("Hello " + str(i) + " times")
 ```
 
-	```
-	Hello 5 times
-	Hello 8 times
-	Hello 11 times
-	```
+```
+Hello 5 times
+Hello 8 times
+Hello 11 times
+```
 
 -----
 
@@ -188,18 +188,18 @@ for i in range(10) :
 	print(random.randint(0,5))
 ```
 
-	```
-	0
-	5
-	4
-	4
-	1
-	0
-	1
-	4
-	2
-	1
-	```
+```
+0
+5
+4
+4
+1
+0
+1
+4
+2
+1
+```
 
 If we want a random number with decimals (called a "floating point number" by developers), we can instead use `random.uniform()`.
 
@@ -210,18 +210,18 @@ for i in range(10) :
 	#print a random number, uniformly weighted, between 0 and 1, inclusive
 	print(random.uniform(0,1))
 ```
-	```
-	0.8481560825317095
-	0.4862262467005589
-	0.7584955629755024
-	0.1872005446615962
-	0.3192872946043329
-	0.5031837342933824
-	0.5734300895869947
-	0.7422321630327087
-	0.8537804130068116
-	0.0239247940520823
-	```
+```
+0.8481560825317095
+0.4862262467005589
+0.7584955629755024
+0.1872005446615962
+0.3192872946043329
+0.5031837342933824
+0.5734300895869947
+0.7422321630327087
+0.8537804130068116
+0.0239247940520823
+```
 
 -----
 
@@ -244,12 +244,12 @@ print(myList[4])
 print(myList[-1])
 ```
 
-	```
-	good day
-	hello
-	allo
-	good morning	
-	```
+```
+good day
+hello
+allo
+good morning	
+```
 
 You can ask Python to determine the number (or "length") of items in the list.
 
