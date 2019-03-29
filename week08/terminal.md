@@ -36,17 +36,17 @@ The `~` tells us where we are in our file system. More on that later.
 
 After the `$` you can type in commands and then hit `enter`, try the following
 
-`echo hello`
+> `echo hello`
 
 Your computer will return
 
-> `hello`
+`hello`
 
 The `echo` command is followed by a space and an `argument`. Spaces are semantic in Bash, and separate arguments from their inputs. Any argument that `echo` takes, it spits back out. Wrapping longer arguments in quotation marks ensures that the echo command speaks back all of its input together.
 
-`echo "hello goodbye"`
+> `echo "hello goodbye"`
  
-> `hello goodbye`
+`hello goodbye`
  
 -----
 
@@ -54,17 +54,19 @@ The `echo` command is followed by a space and an `argument`. Spaces are semantic
 
 Enter another Bash command 
 
-`pwd` 
+> `pwd` 
 
 which will return something like
 
-> `/Users/zach`
+`/Users/zach`
 
 but with your username instead of `zach`
 
 `pwd` stands for 'print working directory,' and returns where your Bash shell is currently located in your computer's filesystem. Your Bash shell opens into your user home directory, which is represented in Bash by the `~` (tilda) character. This is why your prompt all along has included the tilda character `~` — it is showing you where you are currently located in your computer's storage.
 
 `ComputerName:~ user$ `
+
+See the tilda (`~`)?
 
 -----
 
@@ -91,7 +93,7 @@ Pictures
 
 We can also maneuver around the file system `cd`, abbreviated from "change directory".
 
-`cd Applications`
+> `cd Applications`
 
 *This is the same file system as exists when you move around amongst your files in the Finder or Explorer.* The only difference is that we are  seeing the contents in text, rather than visually. Using `cd` is the same as double-clicking on a folder to move around and see a new set of files.
 
@@ -105,27 +107,27 @@ Your prompt will update.
 
 And then you can see the contents of your [presumably messy] Desktop with `ls`.
 
-	```
-	Untitled1.ai
-	Untitled1_Final.ai
-	Untitled1_Final_FINAL.ai
-	Untitled1_REALLY_FINAL.ai
-	Untitled3.ai
-	```
+```
+Untitled1.ai
+Untitled1_Final.ai
+Untitled1_Final_FINAL.ai
+Untitled1_REALLY_FINAL.ai
+Untitled3.ai
+```
 
 You can also `cd ..` to move up in the directory structure to return to your home folder. `..` will always move your Terminal's location "up" in the folder hierarchy.
 
 You can also use the `~` character to represent the home folder at any moment. For example, you can always easily return to your home folder.
 
-`cd ~`
+> `cd ~`
 
 You can also navigate to the root of your computer's file system.
 
-`cd /`.
+> `cd /`.
 
-And make multiple of jumps at once.
+And, you can make multiple of jumps at once through your file system.
 
-`cd /Applications/Utilities/`
+? `cd /Applications/Utilities/`
 
 -----
 
@@ -133,41 +135,41 @@ And make multiple of jumps at once.
 
 Use the `>` character to redirect output. 
 
-`echo 'hello zach' > greetings.txt`
+> `echo 'hello zach' > greetings.txt`
 
-Unlike what you would expect, `echo` does not parrot back what you typed in this instance. Instead, the text is pushed into the newly created (if it didn't already exist) `greetings.txt` file. You can preview the new file with the `cat` command, short for `concatenate` since the command is also used for gluing text together in addition to viewing text files.
+Unlike what you would expect, `echo` does not parrot back what you typed in this instance. Instead, the text is pushed into the newly created (if it didn't already exist) `greetings.txt` file. You can preview the new file with the `cat` command, short for `concatenate` since the command is also used for gluing text together, in addition to viewing text files.
 
-`cat greetings.txt`
+> `cat greetings.txt`
 
-> `hello zach`
+`hello zach`
 
 Note that we didn't need to create `greetings.txt`. The redirect character `>` checks if a file exists, creates it if it doesn't, and then *replaces* its contents with whatever preceded it. It will always delete whatever is in the file, beware!
 
-`echo 'buongiorno' > greetings.txt`
+> `echo 'buongiorno' > greetings.txt`
 
-`cat greetings.txt`
+> `cat greetings.txt`
 
-> `buongiorno`
+`buongiorno`
 
 If we want to add text to a file rather than replace its content, we can use `>>`.
 
-`echo 'kalimera' >> greetings.txt`
+> `echo 'kalimera' >> greetings.txt`
 
-`echo 'merhaba' >> greetings.txt`
+> `echo 'merhaba' >> greetings.txt`
 
-`echo 'kwey' >> greetings.txt`
+> `echo 'kwey' >> greetings.txt`
 
-`echo 'rimaykullayki' >> greetings.txt`
+> `echo 'rimaykullayki' >> greetings.txt`
 
-`echo 'ohayo gozaimasu' >> greetings.txt`
+> `echo 'ohayo gozaimasu' >> greetings.txt`
 
-`cat greetings.txt`
+> `cat greetings.txt`
 
-	```
-	buongiorno
-	kalimera
-	merhaba
-	kwey
-	rimaykullayki
-	ohayo gozaimasu
-	```
+```
+buongiorno
+kalimera
+merhaba
+kwey
+rimaykullayki
+ohayo gozaimasu
+```
