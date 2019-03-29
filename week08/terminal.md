@@ -55,13 +55,17 @@ After the `$` you can type in commands and then hit `enter`, try the following
 
 Your computer will return
 
-`hello`
+```
+hello
+```
 
 The `echo` command is followed by a space and an `argument`. Spaces are semantic in Bash, and separate arguments from their inputs. Any argument that `echo` takes, it spits back out. Wrapping longer arguments in quotation marks ensures that the echo command speaks back all of its input together.
 
 > `echo "hello goodbye"`
  
-`hello goodbye`
+```
+hello goodbye
+```
  
 -----
 
@@ -73,13 +77,17 @@ Enter another Bash command
 
 which will return something like
 
-`/Users/zach`
+```
+/Users/zach
+```
 
 but with your username instead of `zach`
 
 `pwd` stands for 'print working directory,' and returns where your Bash shell is currently located in your computer's filesystem. Your Bash shell opens into your user home directory, which is represented in Bash by the `~` (tilda) character. This is why your prompt all along has included the tilda character `~` — it is showing you where you are currently located in your computer's storage.
 
-`ComputerName:~ user$ `
+```
+ComputerName:~ user$ 
+```
 
 See the tilda (`~`)?
 
@@ -118,9 +126,13 @@ Typing the first few letters of where you want to go is usually enough, as the `
 
 Your prompt will update.
 
-> `ComputerName:Desktop user$` 
+```
+ComputerName:Desktop user$
+```
 
 And then you can see the contents of your [presumably messy] Desktop with `ls`.
+
+> `ls`
 
 ```
 Untitled1.ai
@@ -142,7 +154,7 @@ You can also navigate to the root of your computer's file system.
 
 And, you can make multiple of jumps at once through your file system.
 
-? `cd /Applications/Utilities/`
+> `cd /Applications/Utilities/`
 
 -----
 
@@ -156,7 +168,9 @@ Unlike what you would expect, `echo` does not parrot back what you typed in this
 
 > `cat greetings.txt`
 
-`hello zach`
+```
+hello zach
+```
 
 Note that we didn't need to create `greetings.txt`. The redirect character `>` checks if a file exists, creates it if it doesn't, and then *replaces* its contents with whatever preceded it. It will always delete whatever is in the file, beware!
 
@@ -164,7 +178,9 @@ Note that we didn't need to create `greetings.txt`. The redirect character `>` c
 
 > `cat greetings.txt`
 
-`buongiorno`
+```
+buongiorno
+```
 
 If we want to add text to a file rather than replace its content, we can use `>>`.
 
