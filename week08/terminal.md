@@ -2,6 +2,7 @@
 - [Python History and Philosophy](readme.md)
 - [Terminal Basics](terminal.md)
 - [Intro to Python](python.md)
+- [Homework](homework.md)
 
 -----
 
