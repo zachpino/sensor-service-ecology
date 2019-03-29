@@ -60,13 +60,13 @@ Please write the Python code to evaluate this list of Python dictionaries, and t
 7. Add a *sharing differential* (`arrivals` - `departures`) key to each station dictionary. What is the average sharing differential? What are the max and min sharing differentials? How might these numbers be useful to Divvy system planners?
 8. Add a *sharing ratio* (`arrivals` / `departures`) key to each station dictionary (beware that you should coerce both arrivals and departures into floats to prevent integer rounding!). What is the average sharing ratio? What are the max and min sharing ratios? How might these numbers be useful to Divvy system planners?
 
-You can take a small subset of the data to work on (data for 50 Divvy stations), or chew through all of 622 Divvy stations!
+You can take a small subset of the data to work on (data for 20 Divvy stations), or chew through all of 622 Divvy stations!
 
 -----
 
 ##### Partial Dataset
 
-Copy and paste the data below for 50 Divvy stations, chosen randomly with `random.randint()`. Use this to test your code, as the complete dataset can be unwieldly.
+Copy and paste the data below for 20 Divvy stations, chosen randomly with `random.randint()`. Use this to test your code, as the complete dataset can be unwieldly.
 
 ```python
 [{'name': 'Eberhart Ave & 61st St', 'arrivals': 222, 'longitude': -87.6133078304, 'departures': 210, 'latitude': 41.78414169317, 'capacity': 11, 'ID': 431},
