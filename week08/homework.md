@@ -57,8 +57,8 @@ Please write the Python code to evaluate this list of Python dictionaries, and t
 4. How do you think the Divvy station `ID`s were assigned?
 5. Where is the geographic center of the Divvy system? Where is it in the city?
 6. What are the different counts of bikes accomodated by Divvy docks? 
-7. Add a *sharing differential* (`arrivals` - `departures`) key to each station. What is the average sharing differential? What are the max and min sharing differentials? How might these numbers be useful to Divvy system planners?
-8. Add a *sharing ratio* (`arrivals` / `departures`) key to each station (beware that you should coerce both arrivals and departures into floats to prevent integer rounding!). What is the average sharing ratio? What are the max and min sharing ratios? How might these numbers be useful to Divvy system planners?
+7. Add a *sharing differential* (`arrivals` - `departures`) key to each station dictionary. What is the average sharing differential? What are the max and min sharing differentials? How might these numbers be useful to Divvy system planners?
+8. Add a *sharing ratio* (`arrivals` / `departures`) key to each station dictionary (beware that you should coerce both arrivals and departures into floats to prevent integer rounding!). What is the average sharing ratio? What are the max and min sharing ratios? How might these numbers be useful to Divvy system planners?
 
 You can take a small subset of the data to work on (data for 50 Divvy stations), or chew through all of 622 Divvy stations!
 
