@@ -50,15 +50,16 @@ The data keys are:
 
 Please write the Python code to evaluate this list of Python dictionaries, and try to answer the following questions through list and dictionary manipulation. Copy and past the code that you used to answer each question and keep it around for discussion next week. This [section of the tutorial](https://github.com/zachpino/sensor-service-ecology/blob/master/week08/python.md#synthesizing-data-from-lists-iteration) for the week will be most helpful.
 
-1. What was the average count for arrivals to Divvy stations in 2018? What was the average count for departures?
-2. What stations had the highest, and lowest, departure counts? Where are they? Where are they, and why might they be the extremes?
-3. What stations had the highest, and lowest, arrival counts? Where are they, and why might they be the extremes?
-4. What is the mean deviation of arrivals? What is the mean deviation of departures? Why might they be different, and what might that mean?
-4. How do you think the Divvy station `ID`s were assigned?
-5. Where is the geographic center of the Divvy system? Where is it in the city?
-6. What are the different counts of bikes accomodated by Divvy docks? 
-7. Add a *sharing differential* (`arrivals` - `departures`) key to each station dictionary. What is the average sharing differential? What are the max and min sharing differentials? How might these numbers be useful to Divvy system planners?
-8. Add a *sharing ratio* (`arrivals` / `departures`) key to each station dictionary (beware that you should coerce both arrivals and departures into floats to prevent integer rounding!). What is the average sharing ratio? What are the max and min sharing ratios? How might these numbers be useful to Divvy system planners?
+1. What was the total arrival and departure count, for all Divvy stations, in 2018?
+2. What was the average count for arrivals to Divvy stations in 2018? What was the average count for departures?
+3. What stations had the highest, and lowest, departure counts? Where are they? Where are they, and why might they be the extremes?
+4. What stations had the highest, and lowest, arrival counts? Where are they, and why might they be the extremes?
+5. What is the mean deviation of arrivals? What is the mean deviation of departures? Why might they be different, and what might that mean?
+6. How do you think the Divvy station `ID`s were assigned?
+7. Where is the geographic center of the Divvy system? Where is it in the city?
+8. What are the different counts of bikes accomodated by Divvy docks? 
+9. Add a *sharing differential* (`arrivals` - `departures`) key to each station dictionary. What is the average sharing differential? What are the max and min sharing differentials? How might these numbers be useful to Divvy system planners?
+10. Add a *sharing ratio* (`arrivals` / `departures`) key to each station dictionary (beware that you should coerce both arrivals and departures into floats to prevent integer rounding!). What is the average sharing ratio? What are the max and min sharing ratios? How might these numbers be useful to Divvy system planners?
 
 You can take a small subset of the data to work on (data for 20 Divvy stations), or chew through all of 622 Divvy stations!
 
