@@ -1,16 +1,17 @@
-##### Week 08 TOC
-- [Python History and Philosophy](readme.md)
-- [Terminal Basics](terminal.md)
-- [Intro to Python](python.md)
-- [Modeling a Bikeshare System](bikeshare.md)
+##### Week 09 TOC
+- [Homework Answers from Last Week](answers.md)
+- [Introduction](readme.md)
+- [Abstract Bikeshare Model](abstract_model.md)
+- [Real Data Bikeshare Model](data_model.md)
+- [Homework for Next Week](homework.md)
 
 -----
 
 ### Python Bikeshare Model
 
-Let's put everything together and simulate a simple bikeshare in Python.
+Let's put everything together and simulate a simple bikeshare in Python. 
 
-![divvy](https://dailynorthwestern.com/wp-content/uploads/2016/06/divvyfile-1-900x600.jpg)
+Here, we are abstracting a lot of the details of how a bikeshare system actually works, and using totally fake data. For instance, this code does nothing to keep the number of bikes in the system consistent through simulation steps!
 
 ```python
 import random #bring in random number library functionality
@@ -64,7 +65,7 @@ def step():
 			bikeArrive(stations[i])
 			print("bike arrived at " + stations[i]["name"] )
 
-# reusable function to 
+# reusable function to simulate the system
 def simulate(count):
 	# run as many simulation steps as requested
 	for i in range (count):
@@ -75,5 +76,5 @@ def simulate(count):
 		print(stations[i]["name"] + " had " + str(stations[i]["happy"]) + " happy riders and " + str(stations[i]["unhappy"]) + " unhappy riders.")
 
 # run the simulation!
-simulate(1100)
+simulate(100)
 ```
