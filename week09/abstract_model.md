@@ -9,9 +9,9 @@
 
 ### Python Bikeshare Model
 
-Let's put everything together and simulate a simple bikeshare in Python. 
+Let's put everything together and simulate a simple bikeshare in Python!
 
-Here, we are abstracting a lot of the details of how a bikeshare system actually works, and using totally fake data. For instance, this code does nothing to keep the number of bikes in the system consistent through simulation steps!
+Here, we are abstracting a lot of the details of how a bikeshare system actually works, and using totally fake data. For instance, this code does nothing to keep the number of bikes in the system consistent through simulation steps.
 
 ```python
 import random #bring in random number library functionality
