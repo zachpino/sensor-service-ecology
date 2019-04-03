@@ -13,12 +13,20 @@ Let's put everything together and simulate a simple bikeshare in Python!
 
 Here, we are abstracting a lot of the details of how a bikeshare system actually works, and using totally fake data. For instance, this code does nothing to keep the number of bikes in the system consistent through simulation steps.
 
+#### Sample Data
+
+```python
+[{"name":"Station A", "in":.25, "out":.55, "bikes":6, "capacity":12, "unhappy":0, "happy":0}, {"name":"Station B", "in":.55, "out":.25, "bikes":4, "capacity":8, "unhappy":0, "happy":0}, {"name":"Station C", "in":.5, "out":.7, "bikes":6, "capacity":14, "unhappy":0, "happy":0}]
+```
+
+#### Simulation Model
+
 ```python
 import random #bring in random number library functionality
 
 # list of dictionaries describing bike share stations
 # the keys are station "name", "in" likelihood, "out" likelihood, current "bikes", total bike "capacity", "unhappy" customer count, and "happy" customer count
-stations = [{"name":"Station A", "in":.25, "out":.55, "bikes":6, "capacity":12, "unhappy":0, "happy":0}, {"name":"Station B", "in":.55, "out":.25, "bikes":4, "capacity":8, "unhappy":0, "happy":0}, {"name":"Station C", "in":1, "out":1, "bikes":6, "capacity":14, "unhappy":0, "happy":0}]
+stations = [{"name":"Station A", "in":.25, "out":.55, "bikes":6, "capacity":12, "unhappy":0, "happy":0}, {"name":"Station B", "in":.55, "out":.25, "bikes":4, "capacity":8, "unhappy":0, "happy":0}, {"name":"Station C", "in":.5, "out":.7, "bikes":6, "capacity":14, "unhappy":0, "happy":0}]
 
 # reusable function for a bike leaving a station
 def bikeDepart(station) :
