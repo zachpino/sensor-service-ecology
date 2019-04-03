@@ -11,6 +11,7 @@
 
 This code is designed to run in a Jupyter Notebook, and makes use of a very useful [weighted random choice algorithm](https://eli.thegreenplace.net/2010/01/22/weighted-random-generation-in-python) to 'intelligently' choose random trip departure and arrival stations. The code also creates vector plots of the simulated trips.
 
+-----
 
 #### Sample Data
 
@@ -20,6 +21,7 @@ This code is designed to run in a Jupyter Notebook, and makes use of a very usef
 
 ```
 
+-----
 
 #### Simulation Model
 
