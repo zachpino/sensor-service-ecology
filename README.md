@@ -16,6 +16,6 @@ Documentation and Resources for the Spring 2019 IIT Institute of Sensor Service 
 	- Classtime: Python Basics
 	- Homework:  Divvy Data Analysis
 
-- [Week 09 · Simulated Biking](week09/readme.md) 	
-	- Classtime: Divvy Modeling and Weighted Random Choice
-	- Homework:  TBD
+- [Week 09 · Data Exploration](week09/readme.md) 	
+	- Classtime: List and Dictionary Review
+	- Homework:  Divvy Data Analysis
