@@ -228,24 +228,17 @@ stations = [{'name': 'Damen Ave & Pierce Ave', 'arrivals': 19736, 'longitude': -
 longitude = 0
 latitude = 0
 
-# count up missing data
-badCounter = 0;
-
 # loop through dataset
 for i in range ( len(stations) ) :
 
-	if stations[i]["longitude"] == False : 
-		badCounter += 1	
-
-	else :
-		# add longitude from the current station on to the counter variable
-		longitude += stations[i]["longitude"]
-		# add latitude from the current station on to the counter variable
-		latitude += stations[i]["latitude"]
+	# add longitude from the current station on to the counter variable
+	longitude += stations[i]["longitude"]
+	# add latitude from the current station on to the counter variable
+	latitude += stations[i]["latitude"]
 
 # calculate averages
-averageLongitude = float(longitude) / (len(stations) - badCounter)
-averageLatitude = float(latitude) / (len(stations) - badCounter)
+averageLongitude = float(longitude) / (len(stations)
+averageLatitude = float(latitude) / (len(stations) 
 
 # show results
 print("Average Longitude: " + str(averageLongitude))
