@@ -321,7 +321,7 @@ for i in range( len(stations) ) :
         #we haven't seen this capacity before, so let's add it to the list 
         dockCapacityList.append(dockCapacity)
 
-# let's count how many times each order shows up in the 'count' key 
+# let's count how many times each dock capacity shows up in the 'count' key 
 dockCapacityCount = []
 
 # we need to loop twice! once through the list of capacities, and for all the stations!
