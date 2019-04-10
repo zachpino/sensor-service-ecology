@@ -19,3 +19,7 @@ Documentation and Resources for the Spring 2019 IIT Institute of Sensor Service 
 - [Week 09 · Data Exploration](week09/readme.md) 	
 	- Classtime: List and Dictionary Review
 	- Homework:  Divvy Data Analysis
+
+- [Week 10 · Python Bikeshare](week10/readme.md) 	
+	- Classtime: Coding a Simulation
+	- Homework:  Additional Simulated Functionality

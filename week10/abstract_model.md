@@ -1,5 +1,4 @@
 ##### Week 09 TOC
-- [Homework Answers from Last Week](answers.md)
 - [Introduction](readme.md)
 - [Abstract Bikeshare Model](abstract_model.md)
 - [Real Data Bikeshare Model](data_model.md)
@@ -7,7 +6,7 @@
 
 -----
 
-### Python Bikeshare Model
+### Python Abstracted Bikeshare Model
 
 Let's put everything together and simulate a simple bikeshare in Python!
 
