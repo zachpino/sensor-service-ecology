@@ -196,8 +196,8 @@ for i in range( len(stations) ) :
     differentials.append(totalDifferential)
     
 #create sorted version of stations list based on happiness values
-ascendingHappinessList = sorted(happinessList, key=itemgetter('happiness')) 
-descendingHappinessList = sorted(happinessList, key=itemgetter('happiness'), reverse=True) 
+ascendingHappinessList = sorted(stations, key=itemgetter('happiness')) 
+descendingHappinessList = sorted(stations, key=itemgetter('happiness'), reverse=True) 
 
 #calculate average differential between simulation and reality
 averageDifferential = sum(differentials) / len(differentials)
