@@ -152,7 +152,7 @@ def simulate(trips, bikes) :
         
                 
         
-# 2018 had 3603086 trips in the Divvy System
+# 2018 had 3603082 trips in the Divvy System
 # 2018 Divvy System has 5800 bicycles
 bikeCount = 5800
 tripCount = 2500
