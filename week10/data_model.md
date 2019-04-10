@@ -180,7 +180,7 @@ print( "Simulation took " + str(timeEnd - timeStart) + " seconds to model " + st
 differentials = []
 
 #figure out what portion of a full Divvy year was simulated
-yearPercentage = tripCount / 3603086
+yearPercentage = tripCount / 3603082
 
 #loop through stations after simulation
 for i in range( len(stations) ) :
