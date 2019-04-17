@@ -25,5 +25,5 @@ Documentation and Resources for the Spring 2019 IIT Institute of Sensor Service 
 	- Homework:  Additional Simulated Functionality
 
 - [Week 11 · Migration Data Prep](week11/readme.md) 	
-	- Classtime: Coding a Simulation
+	- Classtime: Processing and Joining Data
 	- Homework: TBD
