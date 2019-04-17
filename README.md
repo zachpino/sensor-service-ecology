@@ -23,3 +23,7 @@ Documentation and Resources for the Spring 2019 IIT Institute of Sensor Service 
 - [Week 10 · Python Bikeshare](week10/readme.md) 	
 	- Classtime: Coding a Simulation
 	- Homework:  Additional Simulated Functionality
+
+- [Week 11 · Migration Data Prep](week11/readme.md) 	
+	- Classtime: Coding a Simulation
+	- Homework: TBD
