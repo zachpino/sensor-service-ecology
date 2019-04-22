@@ -30,6 +30,9 @@ with open('UN_MigrantStockTotal_2017.csv') as csvfile:
     #read csv content
     readCSV = csv.reader(csvfile, delimiter=',')
     
+    #skip first row
+    next(readCSV)
+
     #read each row of CSV file
     for row in readCSV:
         
@@ -79,6 +82,10 @@ with open('UN_MigrantStockTotal_2017.csv') as csvfile:
 with open('gdp.csv') as csvfile:
     #read csv data
     readCSV = csv.reader(csvfile, delimiter=',')
+    
+    #skip first row
+    next(readCSV)
+
     #for each row in the CSV file...
     for row in readCSV:
         #check each country datapoint for a match
@@ -123,7 +130,7 @@ for i,country in enumerate(countryData) :
 
 #add country name annotations to plot
 for i,name in enumerate(names):
-    plt.annotate(name, (x[i],y[i]), size=4 )
+    plt.annotate(name, (x[i],y[i]), size=3, alpha=.5 )
 
 #print statistical relationships
 print(linregress(x,y))
@@ -145,8 +152,12 @@ plt.xlabel('2017 Population')
 plt.ylabel('2017 GDP')
 
 #print all data for debugging
-print(countryData)
+#print(countryData)
+#print(unmatchedCountryNames)
 
 #show plot, now interactive due to first line in code!
 plt.show()
+
+#plt.savefig('countryplot.eps', format='eps')
+
 ```
