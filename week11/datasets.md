@@ -8,8 +8,8 @@
 
 In order to model migration, we will need to accumulate a bunch of independent datasets and attempt to join them together. For this week, let's work on two simple files.
 
-[World Country GDP 1990-2017](gdp.csv)
-[World Country Migrations Stock 1990-2017](UN_MigrantStockTotal_2017.csv)
+- [World Country GDP 1990-2017](gdp.csv)
+- [World Country Migrations Stock 1990-2017](UN_MigrantStockTotal_2017.csv)
 
 To join these datasets together and plot possible relationships, we can use code like the following.
 
