@@ -11,6 +11,8 @@ This week, let's prepare some complex data! The data is from several sources inc
 
 We will be combining these datasets in order to analyze the degree to which they might be related.
 
+![plot.png](plot.png)
+
 ### Statistical Significance and Variation
 
 There are two synthetic metrics that can help us determine if datasets are related.
