@@ -25,7 +25,7 @@ There are two synthetic metrics that can help us determine if datasets are relat
 
 As a simple way of summarizing, R<sup>2</sup> values are a way to measure if modeled data are in some way related to one another, and p values tell us if we have looked at enough high quality data.
 
-Given these two metrics, we can set up a 4 states.
+Crossing these two metrics, we can set up 4 evaluative conditions.
 
 - Low R-square and Low p-value : The model does not explain the variation in the data, but the data analyzed is good data (your data is better than your model)
 - Low R-square and High p-value : The model does not explain the variation in the data, and the data is weird (worst!)
