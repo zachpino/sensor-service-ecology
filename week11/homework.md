@@ -1,6 +1,6 @@
 ##### Week 11 TOC
 - [Introduction](readme.md)
-- [Datasets](datasets.md)
+- [Datasets and Code](datasets.md)
 - [Homework for Next Week](homework.md)
 
 -----
