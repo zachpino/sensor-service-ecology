@@ -28,6 +28,6 @@ Documentation and Resources for the Spring 2019 IIT Institute of Sensor Service 
 	- Classtime: Processing and Joining Data, Regression, p and r values
 	- Homework: Dataset Sourcing
 	
-- [Week 13 · Migration Data Visualization and Forecasting](week11/readme.md) 	
+- [Week 13 · Migration Data Visualization and Forecasting](week13/readme.md) 	
 	- Classtime: Folium Mapping and ARIMA Projection
 	- Homework: TBD
