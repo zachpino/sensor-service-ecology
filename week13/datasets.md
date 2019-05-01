@@ -9,6 +9,10 @@
 
 In an Anaconda Terminal, install [Florium](https://python-visualization.github.io/folium/)! Florium is a simple wrapper around [Leaflet](https://leafletjs.com), a commonly used presentation layer for [Open Street Maps](https://www.openstreetmap.org/#map=5/38.007/-95.844).
 
+```
+pip install folium
+```
+
 
 ### Datasets for Processing
 
