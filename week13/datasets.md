@@ -5,6 +5,11 @@
 
 -----
 
+### Computational Cartography
+
+In an Anaconda Terminal, install [Florium](https://python-visualization.github.io/folium/)! Florium is a simple wrapper around [Leaflet](https://leafletjs.com), a commonly used presentation layer for [Open Street Maps](https://www.openstreetmap.org/#map=5/38.007/-95.844).
+
+
 ### Datasets for Processing
 
 Let's use a dataset from the [World Bank](https://data.worldbank.org/indicator/sm.pop.refg) on refugees, as well as a simple dataset that offers us the longitude and latitude of different world capitals.
