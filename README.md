@@ -27,6 +27,6 @@ Documentation and Resources for the Spring 2019 IIT Institute of Sensor Service 
 - [Week 13 · Migration Data Visualization and Forecasting](week13/readme.md) 	
 	- Classtime: Folium Mapping and ARIMA Projection
 
-- [Week 13 · Migration Data Visualization and Forecasting](week14/readme.md) 	
+- [Week 14 · Data Merging and Modeling](week14/readme.md) 	
 	- Classtime: Descriptive and Predictive Modeling with Real Data
 
