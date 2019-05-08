@@ -14,20 +14,19 @@ Documentation and Resources for the Spring 2019 IIT Institute of Sensor Service 
 
 - [Week 08 · Intro to Python Modeling](week08/readme.md) 	
 	- Classtime: Python Basics
-	- Homework:  Divvy Data Analysis
 
 - [Week 09 · Data Exploration](week09/readme.md) 	
 	- Classtime: List and Dictionary Review
-	- Homework:  Divvy Data Analysis
 
 - [Week 10 · Python Bikeshare](week10/readme.md) 	
 	- Classtime: Coding a Simulation
-	- Homework:  Additional Simulated Functionality
 
 - [Week 11 + 12 · Migration Data Prep](week11/readme.md) 	
-	- Classtime: Processing and Joining Data, Regression, p and r values
-	- Homework: Dataset Sourcing
+	- Classtime: Processing and Joining Data, Regression, p and r-square values
 	
 - [Week 13 · Migration Data Visualization and Forecasting](week13/readme.md) 	
 	- Classtime: Folium Mapping and ARIMA Projection
-	- Homework: TBD
+
+- [Week 13 · Migration Data Visualization and Forecasting](week14/readme.md) 	
+	- Classtime: Descriptive and Predictive Modeling with Real Data
+

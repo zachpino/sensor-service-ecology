@@ -1,7 +1,6 @@
 ##### Week 13 TOC
 - [Introduction](readme.md)
 - [Datasets and Code](datasets.md)
-- [Homework](homework.md)
 
 -----
 

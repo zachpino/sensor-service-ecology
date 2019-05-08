@@ -1,7 +1,6 @@
 ##### Week 13 TOC
 - [Introduction](readme.md)
 - [Datasets and Code](datasets.md)
-- [Homework](homework.md)
 
 -----
 
@@ -13,6 +12,8 @@ In an Anaconda Terminal, install [Florium](https://python-visualization.github.i
 pip install folium
 ```
 
+And check out the awesome [Folium documentation](https://python-visualization.github.io/folium/quickstart.html) to see what you can do with the libary!
+
 
 ### Datasets for Processing
 
@@ -20,7 +21,6 @@ Let's use a dataset from the [World Bank](https://data.worldbank.org/indicator/s
 
 - [World Refugees by Country](full_refugee.csv)
 - [Country Capital Locations](country_capitals.csv)
-
 
 ```python
 import folium
